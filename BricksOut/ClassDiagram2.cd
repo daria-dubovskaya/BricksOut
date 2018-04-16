@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BricksOut.BricksOutGame" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAkAAAAAACAwAAAEAAAAiAAAACAAgAIAAAAEgAAAQ=</HashCode>
+      <FileName>BricksOutGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.GameObject">
+    <Position X="6.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAgAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Objects\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.StopBoard">
+    <Position X="1.75" Y="13.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAQAQEBUgQgAAwQAAAAAAQJEAACgAiAgAAQQgAAAAAM=</HashCode>
+      <FileName>Game Objects\StopBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MetalBrick">
+    <Position X="1.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Objects\MetalBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Ball">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAwAAAAQAQIAIgAIEAAAABAEAAQgQAE0BEYBAEAGYAk=</HashCode>
+      <FileName>Game Objects\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.ClayBrick">
+    <Position X="3.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAgABQAAAAAAAA=</HashCode>
+      <FileName>Game Objects\ClayBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.LevelConstructor" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAgAAAQIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LevelConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MenuButton" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EATCAAAQAACAAgQgAAAAAAAAAEAAAAAAAAAACAAEAAg=</HashCode>
+      <FileName>UI Elements\MenuButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Bonus">
+    <Position X="8" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABQAAIAAAQAAAgAIEAAAEBBGABAhQAAwAQQBAAAEAAA=</HashCode>
+      <FileName>Game Objects\Bonus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Screen">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCEAAAQAHCAgAAEAAAABAAAAAAAAAAAAAAAEIAAAQ=</HashCode>
+      <FileName>Screens\Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MenuScreen">
+    <Position X="24.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAgAwAAAgAAIAAAAAEQAAABAAAAAAgABAKBAAQ=</HashCode>
+      <FileName>Screens\MenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MainMenuScreen">
+    <Position X="26" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAgAAAAAAAIAAAAACAAIAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\MainMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.PauseMenuScreen">
+    <Position X="29.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAgAIAAIQAAAACAgIAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\PauseMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.GameOverMenuScreen">
+    <Position X="22" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAIQAAAAAAgAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Screens\GameOverMenuScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.SettingsScreen">
+    <Position X="19.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASgIIAAQggAAgEACAAAAAAAACAAAAAAAAAgAiAIAQw=</HashCode>
+      <FileName>Screens\SettingsScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Button">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAABQABAAAAAA=</HashCode>
+      <FileName>UI Elements\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Thumb" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>UI Elements\Thumb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Slider">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI Elements\Slider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.BoardFire">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAQQgQAAEgAIAAgAAABAAAAoQEAwBAQBAAQAAAA=</HashCode>
+      <FileName>Visual Effects\BoardFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Destruction">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQACIQAAQAAAgAAAAwAAABEAAAgQAAgAAQAwAAAAAA=</HashCode>
+      <FileName>Visual Effects\Destruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.WoodBrick">
+    <Position X="5.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game Objects\WoodBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MagicBrick">
+    <Position X="7.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAgAIAAAAAABAAAAgQAAwAAQAAAAAAAA=</HashCode>
+      <FileName>Game Objects\MagicBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.GameScreen">
+    <Position X="27.75" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gKwJYKDwQJMmC0FQBCmY6aRYGwIgRCQNBEEAEAAKMUQ=</HashCode>
+      <FileName>Screens\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.UIElement">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI Elements\UIElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.MagicExplosion">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAEgDQAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Visual Effects\MagicExplosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.FireExplosion">
+    <Position X="13.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAEADQAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Visual Effects\FireExplosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.WoodDestruction">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIBAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Visual Effects\WoodDestruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.ClayDestruction">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIBAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Visual Effects\ClayDestruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BricksOut.Brick" Collapsed="true">
+    <Position X="5.5" Y="13.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQACACABRAAsAAwEAIAABgAAAQAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game Objects\Brick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
